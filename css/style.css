@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Martel+Sans:400,900);
+
+body {
+    background: #349522 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_green_bkgd.jpg') no-repeat fixed bottom center / cover;
+  font-family: 'Martel Sans', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.buttons {
+  font-weight: 900;
+  padding-top: 15px;
+  background: #000;
+  margin: 0 20px;
+}
+
+.ultra {
+  font-weight: 900;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.marker {
+  position: relative;
+  color: #fff;
+  margin: auto;
+  font-size: 140px;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  font-weight: 900;
+}
+
+.top-left {
+  border-right: 8px solid rgba(0, 0, 0, .5);
+  border-bottom: 8px solid rgba(0, 0, 0, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  text-align: center;
+  height: 200px;
+  cursor:pointer;
+}
+
+.top-center {
+  border-bottom: 8px solid rgba(0, 0, 0, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px;
+  cursor:pointer;  
+}
+
+.top-right {
+  border-left: 8px solid rgba(0, 0, 0, .5);
+  border-bottom: 8px solid rgba(0, 0, 0, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px;  
+  cursor:pointer;  
+}
+
+.middle-left {
+  border-right: 8px solid rgba(0, 0, 0, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px;   
+  cursor:pointer;  
+}
+
+.middle-center {
+  text-align: center;
+  height: 200px;
+  cursor:pointer;  
+}
+
+.middle-right {
+  border-left: 8px solid rgba(0, 0, 0, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px; 
+  cursor:pointer;  
+}
+
+.bottom-left {
+  border-top: 8px solid rgba(0, 0, 0, .5);
+  border-right: 8px solid rgba(0, 0, 0, .5);  
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px;
+  cursor:pointer;  
+}
+
+.bottom-middle {
+  border-top: 8px solid rgba(0, 0, 0, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px; 
+  cursor:pointer;  
+}
+
+.bottom-right {
+  border-top: 8px solid rgba(0, 0, 0, .5);
+  border-left: 8px solid rgba(0, 0, 0, .5);  
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */  
+  text-align: center;
+  height: 200px;  
+  cursor:pointer;  
+}
+
+.player-wins {
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  float: center;
+  background: #602db0 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_purple_bkgd.jpg') no-repeat fixed bottom center / cover;
+  color: #fff;
+  text-align: center;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  font-size: 100px;
+  display: none;
+}
+
+.cpu-wins {
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  float: center;
+  background: #d71b29 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_red_bkgd.jpg') no-repeat fixed bottom center / cover;
+  color: #fff;
+  text-align: center;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  font-size: 100px;
+  display: none;
+}
+
+.tie {
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+  float: center;
+  background: #333333 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_gray_bkgd.jpg') no-repeat fixed bottom center / cover;
+  color: #000;
+  text-align: center;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  font-size: 100px;
+  display: none;
+}
+
+.choose-marker {
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+  float: center;
+  background: #4179b4 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_blue_bkgd.jpg') no-repeat fixed bottom center / cover;
+  color: #fff;
+  text-align: center;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  font-size: 100px;
+  display: block;
+}
+
+.winColors {
+  color: yellow;
+}
+
+.winColorsReset {
+  color: #fff;
+}
