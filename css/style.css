@@ -135,7 +135,7 @@ h1 {
   height: 100%;
   z-index: 10000;
   float: center;
-  background: #d71b29 url('../img/tictactoe/ttt_red_bkgd.jpg') no-repeat fixed bottom center / cover;
+  background: #d71b29 url('../img/ttt_red_bkgd.jpg') no-repeat fixed bottom center / cover;
   color: #fff;
   text-align: center;
   margin: auto auto;
