@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Martel+Sans:400,900);
 
 body {
-    background: #349522 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_green_bkgd.jpg') no-repeat fixed bottom center / cover;
+    background: #349522 url('../img/ttt_green_bkgd.jpg') no-repeat fixed bottom center / cover;
   font-family: 'Martel Sans', sans-serif;
 }
 
@@ -118,7 +118,7 @@ h1 {
   height: 100%;
   z-index: 10000;
   float: center;
-  background: #602db0 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_purple_bkgd.jpg') no-repeat fixed bottom center / cover;
+  background: #602db0 url('../img/ttt_purple_bkgd.jpg') no-repeat fixed bottom center / cover;
   color: #fff;
   text-align: center;
   margin: auto auto;
@@ -135,7 +135,7 @@ h1 {
   height: 100%;
   z-index: 10000;
   float: center;
-  background: #d71b29 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_red_bkgd.jpg') no-repeat fixed bottom center / cover;
+  background: #d71b29 url('../img/tictactoe/ttt_red_bkgd.jpg') no-repeat fixed bottom center / cover;
   color: #fff;
   text-align: center;
   margin: auto auto;
@@ -152,7 +152,7 @@ h1 {
   height: 100%;
   z-index: 5000;
   float: center;
-  background: #333333 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_gray_bkgd.jpg') no-repeat fixed bottom center / cover;
+  background: #333333 url('../img/ttt_gray_bkgd.jpg') no-repeat fixed bottom center / cover;
   color: #000;
   text-align: center;
   margin: auto auto;
@@ -169,7 +169,7 @@ h1 {
   height: 100%;
   z-index: 5000;
   float: center;
-  background: #4179b4 url('http://www.mikemorkes.com/codepen/tictactoe/ttt_blue_bkgd.jpg') no-repeat fixed bottom center / cover;
+  background: #4179b4 url('../img//ttt_blue_bkgd.jpg') no-repeat fixed bottom center / cover;
   color: #fff;
   text-align: center;
   margin: auto auto;
